@@ -7,30 +7,6 @@
 
 ## 1 style
 
-{{< version 0.2.0 changed >}}
-
-{{< admonition >}}
-Hugo **extended** 版本对于 `style` shortcode 是必需的.
-{{< /admonition >}}
-
-`style` shortcode 用来在你的文章中插入自定义样式.
-
-`style` shortcode 有两个位置参数.
-
-第一个参数是自定义样式的内容. 它支持 [:(fab fa-sass fa-fw): SASS](https://sass-lang.com/documentation/style-rules/declarations#nesting) 中的嵌套语法,
-并且 `&` 指代这个父元素.
-
-第二个参数是包裹你要更改样式的内容的 HTML 标签, 默认值是 `div`.
-
-一个 `style` 示例:
-
-
-呈现的输出效果如下:
-
-{{< style "text-align:right; strong{color:#00b1ff;}" >}}
-This is a **right-aligned** paragraph.
-{{< /style >}}
-
 ## 2 link
 
 {{< version 0.2.0 >}}
